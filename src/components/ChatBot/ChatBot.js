@@ -8,7 +8,7 @@ import Messages from './Messages';
 const ChatBot = () => {
 
   const [messages, setMessages] = useState([
-    { from: "bot", text: "Hi, My Name is Shubham" },
+    { from: "bot", text: {message: "Hi, My Name is Shubham", url: "", type: "", action: []}},
   ]);
   const [inputMessage, setInputMessage] = useState("");
   const [isChatOpen, setIsChatOpen] = useState(false);
@@ -41,24 +41,33 @@ const ChatBot = () => {
     }
   }
 
+  const handleActionMessage = (inputMessage) => {
+    renderChatBody(inputMessage, "user");
+    getChatBotResponse(inputMessage);
+    setInputMessage("");
+  }
+
   const renderChatBody = (text, type) => {
     if (type === "user") { 
       setMessages((old) => [...old, { from: "user", text: text }]);
     } else {
       setTimeout(() => {
         setMessages((old) => [...old, { from: "bot", text: text }]);
-      }, 600);
+      }, 200);
     }
   };
 
   const getChatBotResponse = (userInput) => {
     chatBotService.getResponce(userInput).then((response) => {
+      console.log("botResponse>>",response)
+
       if (response === undefined) {
         response = "Please try something else";
       }
-      renderChatBody(response);
+      renderChatBody(response, "bot");
     }).catch((error) => {
       // Bot response error
+      console.log("Bot response error", error);
     });
   };
   
@@ -77,7 +86,7 @@ const ChatBot = () => {
           <div className="title">Chat</div>
         </div>
         <div className="chat-body">
-          <Messages messages={messages} />
+          <Messages messages={messages} handleActionMessage={handleActionMessage} />
         </div>
         <div className="chat-input">
           <div className="input-sec">
