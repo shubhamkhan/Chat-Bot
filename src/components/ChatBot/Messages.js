@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import userIcon from './Icon/User.svg';
 import botIcon from './Icon/Bot.svg';
+import linkIcon from './Icon/Link.svg';
 import YoutubeVideo from "./YoutubeVideo";
 
 const Messages = (props) => {
@@ -21,7 +22,7 @@ const Messages = (props) => {
         if (item.from === "bot") {
           return (
             <div className="bot-response-container" key={index}>
-                <img src={botIcon} alt="" />
+                <img className="bot-response-container-icon" src={botIcon} alt="" />
                 <div style={{marginBottom: 'auto'}}>
                   <div 
                     className="chatbot-message"
@@ -37,6 +38,7 @@ const Messages = (props) => {
                         target="_blank" rel="noopener noreferrer"
                         style={{textDecoration: 'none', color: "#4CABF2"}}
                       >
+                        <img src={linkIcon} alt="" style={{paddingRight: '5px', height: '12px'}}/>
                         View More
                       </a>
                     </div>

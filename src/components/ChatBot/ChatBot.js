@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './ChatBot.css';
-import sendIcon from './Icon/send.svg';
+import sendIcon from './Icon/Send.svg';
 import chatIcon from './Icon/Chat.svg';
 import chatBotService from './ChatBotService';
 import Messages from './Messages';
@@ -93,7 +93,7 @@ const ChatBot = () => {
             <input 
               type="text" 
               value={inputMessage}
-              id="chatInput"
+              className='chat-input'
               placeholder="Type the message ..."
               autoComplete="off"
               autoFocus={true}
