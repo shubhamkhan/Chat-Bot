@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/Chat-Bot/static/css/main.81e9631a.css",
-    "main.js": "/Chat-Bot/static/js/main.3d5ceb59.js",
+    "main.css": "/Chat-Bot/static/css/main.ce4c1fca.css",
+    "main.js": "/Chat-Bot/static/js/main.b9b6bf4d.js",
     "static/js/787.8fb4aeac.chunk.js": "/Chat-Bot/static/js/787.8fb4aeac.chunk.js",
     "static/media/Bot.svg": "/Chat-Bot/static/media/Bot.8bb3eac86e9392b7a5433dde7b5f4c28.svg",
     "static/media/User.svg": "/Chat-Bot/static/media/User.85f61b2a53d64228a17ac7b5347a3f17.svg",
     "index.html": "/Chat-Bot/index.html",
+    "static/media/Link.svg": "/Chat-Bot/static/media/Link.8d4cc57d80d83df78a19af5964e175c9.svg",
     "static/media/Chat.svg": "/Chat-Bot/static/media/Chat.79cc7d9c71fc9a566ad6f9e50fce76d7.svg",
-    "static/media/send.svg": "/Chat-Bot/static/media/send.22b817fe8bfb826f59aaf8cecb517e16.svg",
-    "main.81e9631a.css.map": "/Chat-Bot/static/css/main.81e9631a.css.map",
-    "main.3d5ceb59.js.map": "/Chat-Bot/static/js/main.3d5ceb59.js.map",
+    "static/media/Send.svg": "/Chat-Bot/static/media/Send.22b817fe8bfb826f59aaf8cecb517e16.svg",
+    "main.ce4c1fca.css.map": "/Chat-Bot/static/css/main.ce4c1fca.css.map",
+    "main.b9b6bf4d.js.map": "/Chat-Bot/static/js/main.b9b6bf4d.js.map",
     "787.8fb4aeac.chunk.js.map": "/Chat-Bot/static/js/787.8fb4aeac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81e9631a.css",
-    "static/js/main.3d5ceb59.js"
+    "static/css/main.ce4c1fca.css",
+    "static/js/main.b9b6bf4d.js"
   ]
 }
