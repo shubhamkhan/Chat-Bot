@@ -40,7 +40,10 @@ npm start
 **Note** :- You need to have node.js installed on your local machine to run this app locally.
 
 # Screenshot
-
+![Chat Bot](Laptop_Chat_Bot_Close.png)
+![Chat Bot](Laptop_Chat_Bot_Open.png)
+![Chat Bot](Mobile_Chat_Bot_Close.png)
+![Chat Bot](Mobile_Chat_Bot_Open.png)
 # License
 
 [MIT License](https://github.com/shubhamkhan/Chat-Bot/blob/master/LICENSE) @ [Shubham Khan](https://github.com/shubhamkhan/)
