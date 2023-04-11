@@ -4,11 +4,15 @@ const output = (message) => {
   let product;
   let text = message.toLowerCase().replace(/[^\w\s\d]/gi, "");
   text = text
-    .replace(/ a /g, " ")
+    // .replace(/ a /g, " ")
     .replace(/whats/g, "what is")
     .replace(/please /g, "")
     .replace(/ please/g, "")
-    .replace(/r u/g, "are you");
+    .replace(/r u/g, "are you")
+    .replace(/my name is \w*/g, "my name is")
+    .replace(/this is\w*/g, "this is")
+    .replace(/i am \w*/g, "i am")
+    .replace(/it is\w*/g, "it is");
 
   if (compare(queries, answers, text)) {
     // Search for exact match in triggers
