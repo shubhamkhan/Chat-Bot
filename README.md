@@ -1,6 +1,6 @@
 # Chat Bot
 
-A simple Chat Bot React component that give user-friendly user interface to your application, and easily engage user interactions with reply different answers for single input.
+A simple Chat Bot React component that gives a user-friendly user interface to your application, and easily engages user interactions with reply different answers for single input.
 
 **Live Preview**: https://shubhamkhan.github.io/Chat-Bot/
 
@@ -13,13 +13,13 @@ A simple Chat Bot React component that give user-friendly user interface to your
 
 ## Introduction
 
-Designed robust user-friendly user interface to engage user interactions, and used different answers for a one input. Utilized user input and provided multiple types of feedback responses such as text, YouTube videos, and links
+Designed a robust user-friendly user interface to engage user interactions, and used different answers for one input. Utilized user input and provided multiple types of feedback responses such as text, YouTube videos, and links
 
 ## Run Locally
 
 To run this web app locally, simply follow these steps:
 
-- Clone this repository with the following command :-
+- Clone this repository with the following command:-
 
 ```
 git clone https://github.com/shubhamkhan/Chat-Bot.git
