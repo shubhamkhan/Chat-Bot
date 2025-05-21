@@ -4,16 +4,23 @@ A simple Chat Bot React component that gives a user-friendly user interface to y
 
 **Live Preview**: https://shubhamkhan.github.io/Chat-Bot/
 
+## Gen AI Version (New Update)
+This chatbot is the base model.
+I have also implemented an AI-powered Gen AI Chatbot, customized with my personal and professional details to deliver more intelligent and contextual responses.
+
+**Try the Gen AI Chatbot here**: https://shubhamkhan.vercel.app/
+
 ## Technology used
 
 * HTML
 * CSS
 * React JS
 * Node JS
+* OPEN AI API
 
 ## Introduction
 
-Designed a robust user-friendly user interface to engage user interactions, and used different answers for one input. Utilized user input and provided multiple types of feedback responses such as text, YouTube videos, and links
+Designed a robust, user-friendly user interface to engage user interactions, and used different answers for one input. Utilized user input and provided multiple types of feedback responses, such as text, YouTube videos, and links
 
 ## Run Locally
 
@@ -37,7 +44,7 @@ npm install
 npm start
 ```
 
-**Note** :- You need to have node.js installed on your local machine to run this app locally.
+**Note**:- You need to have Node.js installed on your local machine to run this app locally.
 
 # Screenshot
 * Desktop View 1
